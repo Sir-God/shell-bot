@@ -13,3 +13,4 @@ CMD sudo apt install -y make python build-essential
 CMD npm install
 #Starts the bot
 CMD node server
+ 
