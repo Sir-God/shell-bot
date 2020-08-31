@@ -1,7 +1,7 @@
 #clones the repo
 RUN git clone https://github.com/Sir-God/shell-bot
 #install rclone
-CMD curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
+RUN curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
 CMD unzip rclone-current-linux-amd64.zip
 CMD mv rclone-current-linux-amd64 rclone
 CMD rm -rf rclone-current-linux-amd64.zip
