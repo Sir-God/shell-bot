@@ -1,5 +1,5 @@
 #clones the repo
-RUN git clone https://github.com/denomparkour/shell-bot
+RUN git clone https://github.com/Sir-God/shell-bot
 #changes dir to shell-bot
 CMD cd shell-bot
 #Installs python and build-essential
